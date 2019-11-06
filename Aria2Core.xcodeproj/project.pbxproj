@@ -17,8 +17,8 @@
 		2DF48BBF2372671D00F07760 /* aria2.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DF48BB62372671C00F07760 /* aria2.h */; };
 		2DF48BC02372671D00F07760 /* ACUriData.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DF48BB72372671C00F07760 /* ACUriData.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2DF48BC12372671D00F07760 /* ACFileData.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2DF48BB82372671C00F07760 /* ACFileData.mm */; };
-		2DF48BC42372675700F07760 /* libaria2-1.34.0-maria.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DF48BC32372675700F07760 /* libaria2-1.34.0-maria.dylib */; settings = {ATTRIBUTES = (Weak, ); }; };
 		2DF48BC6237267BC00F07760 /* Aria2Core.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 2DF48BC5237267BC00F07760 /* Aria2Core.podspec */; };
+		2DF48BC823726D3F00F07760 /* libaria2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DF48BC723726D3F00F07760 /* libaria2.0.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,8 +34,8 @@
 		2DF48BB62372671C00F07760 /* aria2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aria2.h; sourceTree = "<group>"; };
 		2DF48BB72372671C00F07760 /* ACUriData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACUriData.h; sourceTree = "<group>"; };
 		2DF48BB82372671C00F07760 /* ACFileData.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ACFileData.mm; sourceTree = "<group>"; };
-		2DF48BC32372675700F07760 /* libaria2-1.34.0-maria.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libaria2-1.34.0-maria.dylib"; path = "Aria2Core/Frameworks/libaria2-1.34.0-maria.dylib"; sourceTree = "<group>"; };
 		2DF48BC5237267BC00F07760 /* Aria2Core.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = Aria2Core.podspec; sourceTree = SOURCE_ROOT; };
+		2DF48BC723726D3F00F07760 /* libaria2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libaria2.0.dylib; path = Aria2Core/Frameworks/libaria2.0.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DF48BC42372675700F07760 /* libaria2-1.34.0-maria.dylib in Frameworks */,
+				2DF48BC823726D3F00F07760 /* libaria2.0.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,7 +89,7 @@
 		2DF48BC22372675700F07760 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2DF48BC32372675700F07760 /* libaria2-1.34.0-maria.dylib */,
+				2DF48BC723726D3F00F07760 /* libaria2.0.dylib */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

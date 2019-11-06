@@ -1,15 +1,17 @@
 Pod::Spec.new do |s|
 
   s.name         = "Aria2Core"
-  s.version      = "1.0.2"
+  s.version      = "1.0.0"
   s.summary      = "aria2/libaria2 wrapper for Objective-C."
 
-  s.homepage     = "https://github.com/shincurry/Aria2Core"
+  s.homepage     = "https://github.com/bingstyle/Aria2Core.git"
   s.license      = { :type => "MIT", :file => "LICENSE" }
-  s.author       = "ShinCurry"
-
-  s.platform     = :osx, "10.10"
-  s.source       = { :git => "https://github.com/ShinCurry/Aria2Core.git", :tag => "#{s.version}" }
+  s.author       = "bingstyle"
+  s.requires_arc = true
+  
+  s.platform            = :ios, "11.0"
+  s.ios.deployment_target = '11.0'
+  s.source       = { :git => "https://github.com/bingstyle/Aria2Core.git", :tag => "#{s.version}" }
 
   s.source_files  = "Aria2Core/*.{h,mm}"
   s.private_header_files = "Aria2Core/aria2.h"

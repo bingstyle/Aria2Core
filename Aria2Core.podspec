@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-  s.name         = "Aria2Lib"
+  s.name         = "Aria2Core"
   s.version      = "1.0.0"
   s.summary      = "aria2/libaria2 wrapper for Objective-C."
 
